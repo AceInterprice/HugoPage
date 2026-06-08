@@ -1,0 +1,26 @@
+baseURL = "http://localhost:1313/"
+languageCode = "es-mx"
+title = "Mi Blog"
+theme = "PaperMod"
+
+[pagination]
+pagerSize = 5
+
+[params]
+ShowReadingTime = true
+ShowShareButtons = true
+ShowPostNavLinks = true
+ShowBreadCrumbs = true
+ShowCodeCopyButtons = true
+
+[menu]
+
+[[menu.main]]
+name = "Inicio"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "Posts"
+url = "/posts/"
+weight = 2
