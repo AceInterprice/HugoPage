@@ -1,26 +1,21 @@
 baseURL = "https://aceinterprice.github.io/HugoPage/"
-languageCode = "es-mx"
-title = "Mi Blog"
+locale = "es-MX"
+title = "Blog de José Novelo"
 theme = "PaperMod"
 
 [pagination]
 pagerSize = 5
 
 [params]
+description = "Desarrollo de software, proyectos y tecnología"
+
 ShowReadingTime = true
 ShowShareButtons = true
 ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
-[menu]
-
-[[menu.main]]
-name = "Inicio"
-url = "/"
-weight = 1
-
-[[menu.main]]
-name = "Posts"
-url = "/posts/"
-weight = 2
+homeInfoParams = { 
+    Title = "Hola 👋",
+    Content = "Soy José Roberto Novelo de la Cruz del 9-B"
+}
