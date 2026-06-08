@@ -15,7 +15,6 @@ ShowPostNavLinks = true
 ShowBreadCrumbs = true
 ShowCodeCopyButtons = true
 
-homeInfoParams = { 
-    Title = "Hola 👋",
-    Content = "Soy José Roberto Novelo de la Cruz del 9-B"
-}
+[params.homeInfoParams]
+Title = "Hola 👋"
+Content = "Soy José Roberto Novelo de la Cruz del 9-B"
